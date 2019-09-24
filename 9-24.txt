@@ -1,0 +1,27 @@
+create a user object, data access object, get comment, etc (be thinking about this)
+you can create classes just like in Java in php
+$render->renderTable("icecream.data") this is how we instantiate an object
+make functions good at doing a small amount of things
+class foo{ (this makes a class just like any other OOP thing)
+}
+find all the places with html and php that are  mangled together and pull them out into classes
+
+constuctor in php is __construct (these are magic methods) use normally construct/toString
+this-> file = $file; (to pass in variable)
+
+using the class echo Calculator::add(5, 10) . "/n";
+
+abstract class- makes an abstract class
+
+have a DAO class which makes things easier and more consistent
+
+serialize-"deflates" the object...object has been turned into a string, this can make things portable but uselss (like a deflated beach ball)
+json-best way to send data between languages
+
+Find answers in php lecture slides
+
+
+GET/POST/FORMS
+after the q= this is the query string
+forms are logins,check e-mails, buy stuff, etc
+this ties the front end to the back end 

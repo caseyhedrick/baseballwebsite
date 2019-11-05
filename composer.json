@@ -1,5 +1,7 @@
 {
 "require": {
-"php": "^7.3.5"
-	}
+"php": "^7.3.5",
+  "ext-mysqli": "*",
+  "ext-pdo": "*"
+}
 }

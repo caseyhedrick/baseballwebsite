@@ -1,0 +1,6 @@
+CREATE TABLE user_password
+(
+id			INTEGER (500)NOT NULL PRIMARY KEY,
+username	VARCHAR (256)NOT NULL,
+Password	VARCHAR (256) NOT NULL
+);
